@@ -11,6 +11,13 @@ This project is an end-to-end text summarizer that uses modular coding, a pipeli
 
 ## Screenshots
 
+![Screenshot 1](https://github.com/bhaveshk22/Text_Summarizer/assets/141263853/5cc450d5-1ca5-4fd9-97b1-2adbc120bc81)
+
+
+![Screenshot 3](https://github.com/bhaveshk22/Text_Summarizer/assets/141263853/a956c342-40a8-4417-8de8-58301ea91ecb)
+
+
+
 
 
 ## Roadmap
@@ -25,16 +32,16 @@ The project uses a pipeline architecture, that means the system is divided into 
 - **Summary Generation**: In this stage, the model is used to generate summaries for new input text. 
 
 ## Model
-The project uses the Google Pegasus model, which is a state-of-the-art model for text summarization. Pegasus is a pre-trained transformer model that is fine-tuned for summarization tasks.
+The project uses the Google Pegasus model, which is a state-of-the-art model for text summarization. Pegasus is a pre-trained transformer model that is fine-tuned for summarization tasks. It is designed to generate high-quality summaries that are coherent, fluent, and informative.
 
 ## Trained on SAMSUM Corpus
-The project is trained on the SAMSUM corpus. The corpus contains 16,336 dialogues and 347,791 utterances.
+The project is trained on the SAMSUM corpus, which is a dataset of human-written conversations between two speakers. The corpus contains 16,336 dialogues and 347,791 utterances. The dataset is used to train the Pegasus model for summarization tasks.
 
 ## Evaluation Metrics
-The project uses ROUGE as an evaluation metric to measure the quality of the summaries. It includes ROUGE-1, ROUGE-2, ROUGE-L, and ROUGE-Lsum.
+The project uses ROUGE as an evaluation metric to measure the quality of the summaries. ROUGE is a set of metrics that measure the overlap between the generated summary and the reference summary. It includes ROUGE-1, ROUGE-2, and ROUGE-L, which measure the overlap of unigrams, bigrams, and longest common subsequences, respectively.
 
 ## Deployed via Flask
-The project is deployed via Flask, which is a lightweight web framework for building web applications in Python. Flask provides a simple and flexible way to expose the summarizer as a web service.
+The project is deployed via Flask, which is a lightweight web framework for building web applications in Python. Flask provides a simple and flexible way to expose the summarizer as a web service, allowing users to input text and receive a summary as a response.
 
 
 

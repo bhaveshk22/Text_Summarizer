@@ -14,6 +14,7 @@ This project is an end-to-end text summarizer that uses modular coding, a pipeli
 ![Screenshot 1](https://github.com/bhaveshk22/Text_Summarizer/assets/141263853/5cc450d5-1ca5-4fd9-97b1-2adbc120bc81)
 
 
+
 ![Screenshot 3](https://github.com/bhaveshk22/Text_Summarizer/assets/141263853/a956c342-40a8-4417-8de8-58301ea91ecb)
 
 
